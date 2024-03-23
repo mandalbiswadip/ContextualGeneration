@@ -1,0 +1,5 @@
+transformers==4.20.0
+datasets==2.13.1
+nltk==3.8.1
+matplotlib==3.7.1
+torch
