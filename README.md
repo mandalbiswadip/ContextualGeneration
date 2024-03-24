@@ -1,5 +1,8 @@
 # ContextualGeneration
 
+
+## Scripts
+
 To train the paragraph generation / contextual generation model, use the following command:
 
 ```python LED_paragraph_gen.py --repfile allenai/led-base-16384 --train_dataset <training data path> --distant_dataset <distant data path> --dev_dataset <dev data path>--checkpoint <model_save_path>```
@@ -13,3 +16,8 @@ The evaluation pipeline can be found at:
 Analysis for comparing the baseline and the infilling approach can be found here. 
 
 ```notebooks/Analyze-paragraph-generation.ipynb```
+
+
+## Data
+
+Sample out from the baseline and the proposed are included [here](https://drive.google.com/drive/folders/1t3aVWtEcnGadG_5vg-CC36cpYL-qGYBj?usp=share_link)
