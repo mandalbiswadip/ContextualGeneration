@@ -152,8 +152,7 @@ if __name__ == "__main__":
     argparser.add_argument('--max_input_length', type=int, default=16384) #1024
     argparser.add_argument('--max_output_length', type=int, default=1024)
     argparser.add_argument('--checkpoint', type=str, default="./")
-    argparser.add_argument('--batch_size', type=int, default=1) 
-    argparser.add_argument('--batch_size', type=int, default=1) 
+    argparser.add_argument('--batch_size', type=int, default=1)
 
     argparser.add_argument('--dominant_only', dest='dominant_only', action='store_true')
     argparser.set_defaults(dominant_only=False)
