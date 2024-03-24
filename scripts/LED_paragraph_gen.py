@@ -257,4 +257,4 @@ if __name__ == "__main__":
         eval_dataset=val_set
     )
 
-    trainer.train(model_path=args.repfile)
+    trainer.train()
